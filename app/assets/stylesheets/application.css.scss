@@ -19,3 +19,12 @@
   border: thin black solid;
   border-radius: 3px;
 }
+
+.tool-tip {
+  color: hotpink;
+  font-weight: bold;
+}
+
+li.active > a {
+  color: hotpink;
+}

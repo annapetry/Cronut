@@ -42,4 +42,12 @@ $(function(){
       $('#alert').text("Try Again!");
     }
   });
+  
+   $('.tool-tip').tooltip();
+   
+   var $signIn = $('#signIn-modal');
+   $('#sign-in-button').on('click', function() {
+     $signIn.modal();
+   });
+   
 });
